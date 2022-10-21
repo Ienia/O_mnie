@@ -1,0 +1,109 @@
+body
+{
+    background-color: #231f20;
+    font-family: Josephin-sans, sans-serif;
+    color: white;
+}
+
+#Container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rectangle
+{
+    
+}
+#Header
+{
+    font-size: 60px;
+    padding: 20px;
+}
+#Name
+{
+    width: 600px;
+    float: left;
+}
+#Clock
+{
+    float: left;
+}
+.square
+{
+    width: 500px;
+    float: left;
+}
+#Footer
+{
+    text-align: center;
+}
+.tiles
+{
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #7ebdc2;
+    text-align: center;
+    font-size: 24px;
+    line-height: 180%;
+    color: #231f20;
+}
+.tiles:hover { background-color: #6dacb1; }
+#yellow { background-color: #f3dfa2; }
+#yellow:hover { background-color: #e2ce91; }
+#red { background-color: #bb4430; }
+#red:hover { background-color: #aa3320; }
+#long
+{
+    width: 480px; 
+    background-color: #efe6dd; 
+    padding-top: 30px; 
+    height:112px;
+}
+.big_tile
+{
+    margin: 10px;
+    width: 440px;
+    height: 264px;
+    background-color: #a8a8a8;
+    text-align: justify;
+    color: #231f20;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.small_tiles
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    text-align: center;
+}
+.github { background-color: #4078c0; }
+.github:hover { background-color: #3f67b0; }
+.gmail { background-color: #BB001B; }
+.gmail:hover { background-color: #aa000a; }
+.linkedin { background-color: #0077b5; }
+.linkedin:hover { background-color: #0066a4; }
+.youtube { background-color: #ff0000; }
+.youtube:hover { background-color: #ee1111; }
+
+a.tile_link
+{
+    color:#231f20;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+a.small_tile_link
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+    width: 110px;
+    height: 142px;
+}

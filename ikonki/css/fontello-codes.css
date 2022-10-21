@@ -1,0 +1,10 @@
+
+.icon-desktop:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-user:before { content: '\e802'; } /* '' */
+.icon-doc-alt:before { content: '\e803'; } /* '' */
+.icon-chat:before { content: '\e804'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-youtube-play:before { content: '\f16a'; } /* '' */
+.icon-graduation-cap:before { content: '\f19d'; } /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; } /* '' */

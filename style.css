@@ -11,50 +11,65 @@ body
     margin-left: auto;
     margin-right: auto;
 }
+
 .rectangle
 {
     
 }
+
 #Header
 {
     font-size: 60px;
     padding: 20px;
 }
+
 #Name
 {
     width: 600px;
     float: left;
 }
+
 #Clock
 {
     float: left;
 }
+
 .square
 {
     width: 500px;
     float: left;
 }
+
 #Footer
 {
     text-align: center;
+    padding: 20px;
 }
+
 .tiles
 {
     float: left;
     margin: 10px;
     width: 230px;
     height: 142px;
-    background-color: #7ebdc2;
     text-align: center;
     font-size: 24px;
     line-height: 180%;
     color: #231f20;
 }
-.tiles:hover { background-color: #6dacb1; }
-#yellow { background-color: #f3dfa2; }
-#yellow:hover { background-color: #e2ce91; }
-#red { background-color: #bb4430; }
-#red:hover { background-color: #aa3320; }
+
+.blue { background-color: #7ebdc2; }
+
+.tiles.blue:hover { background-color: #6dacb1;}
+
+.yellow { background-color: #f3dfa2; }
+
+.tiles.yellow:hover { background-color: #e2ce91; }
+
+.red { background-color: #bb4430; }
+
+.tiles.red:hover { background-color: #aa3320; }
+
 #long
 {
     width: 480px; 
@@ -62,6 +77,7 @@ body
     padding-top: 30px; 
     height:112px;
 }
+
 .big_tile
 {
     margin: 10px;
@@ -82,6 +98,7 @@ body
     height: 142px;
     text-align: center;
 }
+
 .github { background-color: #4078c0; }
 .github:hover { background-color: #3f67b0; }
 .gmail { background-color: #BB001B; }
@@ -99,6 +116,7 @@ a.tile_link
     width: 230px;
     height: 142px;
 }
+
 a.small_tile_link
 {
     color:white;
@@ -106,4 +124,54 @@ a.small_tile_link
     display: block;
     width: 110px;
     height: 142px;
+}
+
+a.home_link
+{
+    color: white;
+    text-decoration: none;
+    display:block;
+    width: 390px;
+    height: 70px;
+    background-color: #231f20;
+}
+
+a.home_link:hover { font-size:102% }
+
+.title
+{
+    margin: 10px;
+    width: 980px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 180%;
+    color: #231f20;
+}
+
+.big_icon
+{
+    width: 500px;
+    text-align: left;
+    font-size: 400px;
+}
+
+.icons { font-size: 60px; }
+
+ul > li {text-align: justify;}
+
+.bottomline
+{
+    border-bottom: 2px dashed #7ebdc2;
+}
+.tech > ul > li { list-style-type: none; }
+
+.level
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 0px;
+    width: 0px;
+    border: 5px solid #bb4430;
+    border-radius: 50%;
 }
